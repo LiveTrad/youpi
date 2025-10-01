@@ -13,7 +13,7 @@ export function MinimalHero() {
   }
 
   return (
-    <section className="min-h-screen bg-background flex items-center justify-center px-4 sm:px-6 pt-[108px] sm:pt-[120px]">
+    <section className="min-h-[calc(100vh-120px)] bg-background flex items-center justify-center px-4 sm:px-6 pt-28 sm:pt-32 md:pt-36 lg:pt-40">
       <div className="max-w-5xl mx-auto text-center">
         <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl font-poppins font-light text-foreground mb-6 sm:mb-8 animate-fade-in-up text-balance">
           Translate in <span className="text-primary font-medium">Real-Time</span>
